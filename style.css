@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.cls1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+}
+
+.cls1_1{
+    color: blueviolet;
+}
+
+.cls1_2{
+    padding-left:10px ;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 55%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.cls1_2 input{
+    border: none;
+    width: 60%;
+}
+
+
+.cls1_2 input:focus{
+    outline:none
+}
+
+.cls1_3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.cls2{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px black solid;
+    padding: 5px;
+}
+
+.cls2 p{
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    border-radius:30px ;
+    padding: 8px;
+}
+
+
+.cls3 img{
+    width: 100%;
+}
+
+.cls4{
+    padding: 10px;
+}
+
+.cls4_1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cls4_2{
+    width: 275px;
+}
+
+.cls4_2 img{
+    width: 100%;
+    height: 50%;
+}
+
+.cls5{
+    padding: 10px;
+}
+
+.cls5_1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.cls5_1 p{
+    border: 1px solid black;
+    padding: 10px;
+    flex-grow:3;
+    flex-basis:25%;
+}
+
+
+
+.cls7{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.cls7_1{
+    display: flex;
+    padding-top:30px ;
+    padding-left:20px;
+    gap: 60px;
+}
+
+.cls7_1 li{
+    list-style: none;
+    padding: 5px;
+}
+
+.cls7_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+.cls2 p:hover{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+
+.cls3{
+    position: relative;   /* IMPORTANT */
+}
+
+.cls3 img{
+    width: 100%;
+    display: block;
+}
+
+.cls3_1{
+    position: absolute;
+    top: 75px;      
+    left: 75px;     
+    
+    background-color: white;
+    padding: 15px;
+    width: 300px;
+    height: 125px;
+}
+
+
+
+.cls3_1_1{
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.cls3_1_1 button{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+
+}
+
+.cls5_1 p:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.cls7_2 {
+    background-color: black;
+    color: white;
+
+}
