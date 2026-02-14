@@ -51,7 +51,7 @@ Add JavaScript functionality
 Convert into a fully functional website
 
 
-Project Link: (https://shyxmmmmmm.github.io/Udemy-Clone/)
+Project Link: (https://shyxmmmmmm.github.io/Udemy/)
 
 
 Author
